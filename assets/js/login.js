@@ -56,7 +56,7 @@ $(function () {
         // 将 登录成功获取的 token属性的值 保存到 localStorage
         localStorage.setItem('token', res.token)
         // 登录成功转到 index.html
-        // location.href = '/index.html'
+        location.href = '/index.html'
       }
     })
   })

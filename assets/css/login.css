@@ -59,6 +59,8 @@ body {
   padding-left: 30px;
 }
 
+
+/* 为了让页面不自动获取密码 */
 .hidden-pwd {
   position: absolute;
   left: -9999px;
