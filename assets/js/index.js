@@ -11,7 +11,7 @@
       url:'/my/userinfo',
       success: function(res) {
        if (res.code !== 0) return layer.msg(res.message)
-       console.log(res.data);
+      //  console.log(res.data);
        renderAvator(res.data)
       }
     })
